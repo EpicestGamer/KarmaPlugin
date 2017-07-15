@@ -1,0 +1,18 @@
+karmaitemlore: Donated from the Karma Bank
+karmaprizelore: A Prize from the Karma Bank
+
+filter:
+ bank:
+  items:
+   - CAKE
+   - COOKED_BEEF
+   - COOKIE
+  values:
+   - 14
+   - 8
+   - 2
+ prizes:
+  items:
+   - IRON_INGOT
+  values:
+   - 7

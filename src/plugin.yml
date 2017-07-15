@@ -1,0 +1,45 @@
+name: Karma
+
+author: EpicestGamer
+
+main: com.epicest.spigot.karma.Karma2
+
+commands:
+ karma:
+  description: Controls the Karma plugin
+  usage: |
+   /karma deposit - Deposit things into the Karma Bank
+   /karma balance - Tells you the amount of Karma Points you have
+   /karma withdraw - Withdraw things from the Karma bank
+
+ karma deposit:
+  description: Deposit items into the karma bank
+  usage: |
+   /karma deposit - Deposit the current held item into the Karma Bank
+   /karma deposit list - Lists items you can or can't deposit
+
+ karma deposit list:
+  description: Lists items you can or can't deposit
+
+ karma balance:
+  description: Tells you the amount of Karma Points you have
+
+ karma withdraw:
+  description: Withdraw items from the Karma Bank
+  usage: |
+   /karma withdraw list - Lists withdrawable items
+   /karma withdraw donation [item] [amount] - Withdraws from the donation pile
+   /karma withdraw prize [item] [amount] - Withdraws from the prize pile
+
+ karma withdraw list:
+  description: Lists withdrawable items
+
+ karma withdraw donation:
+  description: Withdraws from the donation pile
+  usage: /karma withdraw donation [item] [amount]
+
+ karma withdraw prize:
+  description: Withdraws from the prize pile
+  usage: /karma withdraw prize [item] [amount]
+
+version: 1.0
